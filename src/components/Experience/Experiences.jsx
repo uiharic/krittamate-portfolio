@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Experience.module.css'
 //Import Img from com --> make sure that is located in the same folder as web's folder
-import BangChakImg from 'C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Bangchak.png';
-import SIIT from 'C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/SIIT.png';
-import VISTEC from 'C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Vistec.png';
+import BangChakImg from '../../React_web_pic/Bangchak.png';
+import SIIT from '../../React_web_pic/SIIT.png';
+import VISTEC from '../../React_web_pic/Vistec.png';
 
 function Experiences() {
   return (

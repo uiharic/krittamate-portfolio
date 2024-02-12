@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation'
 import Tilt from 'react-parallax-tilt';
 
 //img import section
-import ChampPic from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Krittamate_Pic.jpg";
+import ChampPic from "../../React_web_pic/Krittamate_Pic.jpg";
 
 function Hero() {
   return (

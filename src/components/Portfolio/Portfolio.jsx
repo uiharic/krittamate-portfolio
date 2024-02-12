@@ -3,15 +3,15 @@ import styles from './Portfolio.module.css'
 import Tilt from 'react-parallax-tilt';
 
 //img section
-import MLpro from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/ML_project.png";
-import Statpro from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Project_Stat.png"
-import Googleanalytic from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Google_DataCetificate-1.png"
-import PythonMas from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Python_Mastering-1.png"
-import Pandases from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Pandas_ForDataScience_Krittamate-1.png"
-import AdSQL from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/AdvanceSQL_pdf-1.png"
-import BasicSQL from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/SQL-1.png"
-import Excel from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Advance_Excel_Krittamate-1.png"
-import Social from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Krittamate_Social_Listening-1.png"
+import MLpro from "../../React_web_pic/ML_project.png";
+import Statpro from "../../React_web_pic/Project_Stat.png"
+import Googleanalytic from "../../React_web_pic/Google_DataCetificate-1.png"
+import PythonMas from "../../React_web_pic/Python_Mastering-1.png"
+import Pandases from "../../React_web_pic/Pandas_ForDataScience_Krittamate-1.png"
+import AdSQL from "../../React_web_pic/AdvanceSQL_pdf-1.png"
+import BasicSQL from "../../React_web_pic/SQL-1.png"
+import Excel from "../../React_web_pic/Advance_Excel_Krittamate-1.png"
+import Social from "../../React_web_pic/Krittamate_Social_Listening-1.png"
 
 //
 function Portfolio() {

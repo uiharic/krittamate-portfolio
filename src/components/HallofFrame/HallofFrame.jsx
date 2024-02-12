@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './HallofFrame.module.css'
 //img//
-import JournalModeling from 'C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Journal_of_ModelingACS.jpg';
-import JournalChemC from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Journal_of_PhyChemC.jpg";
-import BangchakAward from "C:/Users/CHAMP/Desktop/react-portfolio/src/React_web_pic/Bangchak_awards.jpg";
+import JournalModeling from '../../React_web_pic/Journal_of_ModelingACS.jpg';
+import JournalChemC from "../../React_web_pic/Journal_of_PhyChemC.jpg";
+import BangchakAward from "../../React_web_pic/Bangchak_awards.jpg";
 
 function HallofFrame() {
   return (
