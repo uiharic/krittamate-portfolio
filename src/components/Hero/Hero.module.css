@@ -20,7 +20,7 @@
         }
 
         & .name_text{
-            font-size: 64px;
+            font-size: 48px;
             font-weight: bold;
             color:rgb(0, 105, 218);
             font-family: Arial, Helvetica, sans-serif;
@@ -59,8 +59,8 @@
         }
 
         & img{
-            width: 350px;
-            height: 350px;
+            width: 300px;
+            height: 300px;
             border-radius: 100%;
             margin-right: 50px;
             object-fit: cover;
