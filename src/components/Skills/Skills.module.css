@@ -1,0 +1,65 @@
+.skills_con {
+    height: 300px;
+    background-color:rgb(3, 18, 59);
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+
+    & .skills_title{
+        margin-top: 40px;
+        font-size: xx-large;
+    }
+
+    & .skills_des{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: -30px;
+        color: orange;
+    }
+
+    & .skills_list{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-top: 70px;
+
+        & a{
+            color: white;
+        }
+
+            & li{
+                margin: 0 25px;
+
+                & svg{
+                    width: 60px;
+                    height: 70px;
+                }
+            }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .skills_con {
+        height: auto; /* Set height to auto to adjust based on content */
+    }
+    .skills_con .skills_list {
+        flex-direction: row;
+        flex-wrap: wrap; /* Allow items to wrap to the next row */
+        justify-content: center; /* Center items horizontally */
+    }
+
+    .skills_con .skills_list li {
+        margin: 20px; /* Adjust the margin between items */
+        width: calc(50% - 40px); /* Set the width to fit two columns in one row */
+        max-width: 300px; /* Optional: Limit the maximum width of each item */
+    }
+}
+
+
+
+
+    
+
+

@@ -1,0 +1,37 @@
+.number_con{
+    margin-top: 80px;
+    height: 200px;
+    background-color: rgb(3, 18, 59);
+    display: flex;
+    justify-content: center; /*จัดเรียงในแนวนอน*/
+    align-items: center; /*จัดเรียงในแนวตั้ง*/
+    text-align: center;
+
+    & .number_items{
+        color:whitesmoke;
+        margin: 0 100px;
+
+        & h3{
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        & p{
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .number_con{
+        height: auto;
+        flex-direction: column;
+        padding: 50px 0;
+
+        & .number_items{
+            margin: 30px 0;
+        }
+    }
+    
+}

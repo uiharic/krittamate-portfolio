@@ -1,0 +1,62 @@
+.experience_con {
+    height: 600px;
+    background-color: whitesmoke;
+    text-align: center;
+    overflow: hidden;
+
+    & .experience_title{
+        margin-top: 60px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    & .experience_list {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        & .experience_items {
+            width: 300px;
+            margin: 0 90px;
+            margin-top: 5px;
+
+            & img {
+                width: 200px;
+                height: 200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            & h4 {
+                color:rgb(28, 5, 110);
+                font-size: 24px;
+                font-weight: bold;
+                margin: 25px 0;
+            }
+
+            & h5{
+                color:black;
+                font-size: 16px;
+                font-style: italic;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .experience_con{
+        height: auto;
+
+        & .experience_list{
+            flex-direction: column;
+            margin: 50px 0;
+
+            & .experience_items{
+                width: 100%;
+                padding: 20px;
+                margin: 20px 0;
+            }
+        }
+    }
+    
+}
