@@ -21,12 +21,12 @@ function Hero() {
                             // Same substring at the start will only be typed out once, initially
                             'Data Analyst',
                             1000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'Data Scientist',
+                            'Business Intelligence Analyst',
                             1000,
                             'Machine Learning',
                             1000,
                         ]}
-                        speed={50}
+                        speed={40}
                         repeat={Infinity}
                         />
                     </p>

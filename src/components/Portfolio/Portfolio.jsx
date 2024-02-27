@@ -4,7 +4,7 @@ import Tilt from 'react-parallax-tilt';
 
 //img section
 import MLpro from "../../React_web_pic/ML_project.png";
-import Statpro from "../../React_web_pic/Project_Stat.png"
+import GoogleBI from "../../React_web_pic/Krittamate_BI-1.png"
 import Googleanalytic from "../../React_web_pic/Google_DataCetificate-1.png"
 import PythonMas from "../../React_web_pic/Python_Mastering-1.png"
 import Pandases from "../../React_web_pic/Pandas_ForDataScience_Krittamate-1.png"
@@ -12,6 +12,7 @@ import AdSQL from "../../React_web_pic/AdvanceSQL_pdf-1.png"
 import BasicSQL from "../../React_web_pic/SQL-1.png"
 import Excel from "../../React_web_pic/Advance_Excel_Krittamate-1.png"
 import Social from "../../React_web_pic/Krittamate_Social_Listening-1.png"
+import MINI from "../../React_web_pic/Krittamate_MiniDSBootcamp.png"
 
 //
 function Portfolio() {
@@ -28,15 +29,15 @@ function Portfolio() {
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {Statpro} alt="" />
+                    <img src= {GoogleBI} alt="" />
                     </Tilt>
-                    <p>Data Analysis Project</p>
+                    <p>Google Business Intelligence Professional</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
                     <img src= {Googleanalytic} alt="" />
                     </Tilt>
-                    <p>Google Data Analytics</p>
+                    <p>Google Data Analytics Porfessional</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
@@ -73,6 +74,12 @@ function Portfolio() {
                     <img src= {Social} alt="" />
                     </Tilt>
                     <p>Social Listening for Data analysis</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <img src= {MINI} alt="" />
+                    </Tilt>
+                    <p>Mini Data Science Bootcamp by DATAROCKIE</p>
                 </div>
             </div>
         </div>
