@@ -15,6 +15,7 @@ function Number() {
 }
 
   return (
+    <section id='education' className={styles.num_section}>
     <div className={styles.number_con}>
               {/* Title and University */}
         <div className={styles.number_header}> 
@@ -53,6 +54,7 @@ function Number() {
             
         </div>
     </div>
+  </section>
   )
 }
 

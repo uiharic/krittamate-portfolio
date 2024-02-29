@@ -26,8 +26,9 @@ function Navbar() {
             </div>
 
             <ul>
+                <li><a href="#" onClick={() => scrollToSection('education')}>Education</a></li>
                 <li><a href="#" onClick={() => scrollToSection('skills')}>Skill</a></li>
-                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate & Project</a></li>
+                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate</a></li>
                 <li><a href="#" onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
             </ul>
 
@@ -41,8 +42,9 @@ function Navbar() {
         {isToggled ? (
           <>
             <ul className={styles.mobile_menu}>
+                <li><a href="#" onClick={() => scrollToSection('education')}>Education</a></li>
                 <li><a href="#" onClick={() => scrollToSection('skills')}>Skill</a></li>
-                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate & Project</a></li>
+                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate</a></li>
                 <li><a href="#" onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
             </ul>
             <div className={styles.mobile_button}>
