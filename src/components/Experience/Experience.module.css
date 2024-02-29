@@ -1,6 +1,6 @@
 .experience_con {
     height: 600px;
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
     overflow: hidden;
 
@@ -36,8 +36,16 @@
 
             & h5{
                 color:black;
-                font-size: 16px;
+                font-size: 20px;
+                
+            }
+
+            & h6{
+                color: grey;
+                font-size: 20px;
                 font-style: italic;
+                font-weight: bold;
+                margin-top: 15px;
             }
         }
     }

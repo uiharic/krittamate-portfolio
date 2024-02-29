@@ -13,8 +13,8 @@ function Hero() {
         <div className={styles.container}>
             <div className={styles.hero_con}>
                 <div className={styles.hero_info}>
-                    <p className={styles.text_1}>Welcome to my site</p>
-                    <h3 className={styles.name_text}>Krittamate Payakkachon</h3>
+                    <p className={styles.text_1}>Welcome to my personal website</p>
+                    <h3 className={styles.name_text}>Krittamate Payakkachon (Champ)</h3>
                     <p className={styles.text_2}>
                     <TypeAnimation
                         sequence={[
@@ -31,11 +31,10 @@ function Hero() {
                         />
                     </p>
                     <p className={styles.text_descript}>
-                    My name is Champ, and I recently graduated with a first-class degree in Chemical Engineering from SIIT.<br/> 
-                    Although my background is in Chemical Engineering, I am passionate about Data and Machine Learning.<br/> 
-                    I have gained valuable experience working on data analysis and machine learning projects,<br />
-                    including developing predictive Machine Learning models for research and development purposes.<br/> 
-                    Feel free to explore my portfolio website and contact me to keep connected.
+                    Recent graduate with experience in data analyst, predictive modeling, data visualization,<br />
+                    and a passion for applying data analysis and machine learning techniques.<br />  
+                    Always learning and productive, I'm seeking opportunities in data analysis or business intelligence, <br />
+                    let's explore my portfolio and connect!
                     </p>
                     <ul className={styles.hero_social}>
                         <li><a href="https://github.com/uiharic"><FaGithub /></a></li>

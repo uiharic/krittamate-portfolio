@@ -12,29 +12,11 @@ function Contact() {
                   <p className={styles.contact_address}>
                     Bangkok, Thailand
                   </p>
-                  <p><FaPhone/> (+66) 81 963 0344</p>
+                  <p className={styles.contact_phone}><FaPhone/> (+66) 81 963 0344</p>
                   <br />
-                  <p><FaEnvelope/> champkrittamate@gmail.com</p>
+                  <p className={styles.contact_mail}><FaEnvelope/> champkrittamate@gmail.com</p>
               </div>
-              <div className={styles.contact_form}>
-                <form action="">
-                  <div className={styles.input_group}>
-                    <div>
-                      <label htmlFor="first name">First Name</label>
-                      <input type="text" placeholder='eg. Krittamate'/>
-                    </div>
-                    <div>
-                      <label htmlFor="last name">Last Name</label>
-                      <input type="text" placeholder='eg. Payakkachon'/>
-                    </div>
-                  </div>
-                  <label htmlFor="email address">Email Address</label>
-                  <input type="email" placeholder='eg. hellothere@gmail.com'/>
-                  <label htmlFor="message">Message</label>
-                  <textarea name="" id="" cols="30" rows="10" placeholder='Type here'></textarea>
-                  <button type='submit'>Submit</button>
-                </form>
-              </div>
+
           </div>
       </div>
     </section>

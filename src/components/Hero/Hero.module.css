@@ -17,6 +17,8 @@
         & .text_1{
             font-size: 32px;
             font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-bottom: 20px;
         }
 
         & .name_text{

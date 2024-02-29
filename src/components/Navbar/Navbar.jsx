@@ -27,8 +27,8 @@ function Navbar() {
 
             <ul>
                 <li><a href="#" onClick={() => scrollToSection('skills')}>Skill</a></li>
-                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate</a></li>
-                <li><a href="#" onClick={() => scrollToSection('contact')}>Get in touch</a></li>
+                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate & Project</a></li>
+                <li><a href="#" onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
             </ul>
 
             <div className={styles.button}>
@@ -42,8 +42,8 @@ function Navbar() {
           <>
             <ul className={styles.mobile_menu}>
                 <li><a href="#" onClick={() => scrollToSection('skills')}>Skill</a></li>
-                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate</a></li>
-                <li><a href="#" onClick={() => scrollToSection('cpntact')}>Get in touch</a></li>
+                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate & Project</a></li>
+                <li><a href="#" onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
             </ul>
             <div className={styles.mobile_button}>
               <a href="#" onClick={() => scrollToSection('contact')}>Contact me</a>

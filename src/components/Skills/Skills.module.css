@@ -1,6 +1,6 @@
 .skills_con {
     height: 300px;
-    background-color:rgb(3, 18, 59);
+    background-color:#000051;
     text-align: center;
     color: #ffffff;
     overflow: hidden;
@@ -15,7 +15,7 @@
         font-size: 14px;
         font-weight: bold;
         margin-bottom: -30px;
-        color: orange;
+        color: rgb(55, 255, 0);
     }
 
     & .skills_list{

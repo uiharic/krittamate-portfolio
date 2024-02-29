@@ -13,71 +13,129 @@ import BasicSQL from "../../React_web_pic/SQL-1.png"
 import Excel from "../../React_web_pic/Advance_Excel_Krittamate-1.png"
 import Social from "../../React_web_pic/Krittamate_Social_Listening-1.png"
 import MINI from "../../React_web_pic/Krittamate_MiniDSBootcamp.png"
+import Cyclistic from "../../React_web_pic/Cyclistic.png"
+import FutureBI from "../../React_web_pic/FuturePowerBI.png"
+import Traffic from "../../React_web_pic/Traffic_Volume_Analysis_Dashboard.png"
+import PythonTech from "../../React_web_pic/PythonTech.png"
 
 //
 function Portfolio() {
   return (
     <section id='certificate' className={styles.port_section}>
         <div className={styles.port_con}>
-            <h3 className={styles.port_title}>Certificate</h3>
+            <h3 className={styles.port_title}>Certificate & Project</h3>
+            <h4 className={styles.port_details}>Click at the image for more details.</h4>
             <div className={styles.port_list}>
-                <div className={styles.port_items}>
+            <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {MLpro} alt="" />
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/LN2TGBNSYZ5L">
+                        <img src= {Googleanalytic} alt="" />
+                    </a>
                     </Tilt>
-                    <p>Machine Learning Project</p>
+                    <p>Google Data Analytics Professional</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {GoogleBI} alt="" />
+                    <a href='https://www.coursera.org/account/accomplishments/professional-cert/5YWBKBH8GJVC'>
+                        <img src= {GoogleBI} alt="" />
+                    </a>
                     </Tilt>
                     <p>Google Business Intelligence Professional</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {Googleanalytic} alt="" />
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.3c00670">
+                        <img src= {MLpro} alt="" />
+                    </a>
                     </Tilt>
-                    <p>Google Data Analytics Porfessional</p>
+                    <p>Machine Learning Project</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {PythonMas} alt="" />
+                    <a href='https://public.tableau.com/views/Cyclistic_Project_17090294743280/Cyclistic?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'>
+                        <img src= {Cyclistic} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Cyclistic Case Study Analysis Dashboard</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://public.tableau.com/views/Minnesota_Department_of_Transportation_TrafficVol/Traffic_Volume_Analysis_Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'>
+                        <img src= {Traffic} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Case Study Traffic Analysis Dashboard</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.skooldio.com/certificate/53211114-fa70-40e8-b372-e2ac6618dc07'>
+                        <img src= {PythonTech} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Efficient Python Techniques</p>
+                </div>
+
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href="https://www.skooldio.com/certificate/2519de60-57d0-45dc-a316-6f0142fda5ef">
+                        <img src= {PythonMas} alt="" />
+                    </a>
                     </Tilt>
                     <p>Python Mastery Programing</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {Pandases} alt="" />
+                    <a href="https://www.skooldio.com/certificate/8ca0550d-697b-48c3-ab38-af4e8342ca47">
+                        <img src= {Pandases} alt="" />
+                    </a>
                     </Tilt>
                     <p>Essential Pandas for Data Science</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {AdSQL} alt="" />
+                    <a href="https://www.skooldio.com/certificate/a8354199-7fe7-4c3c-8ca3-2c025ebf7160">
+                        <img src= {AdSQL} alt="" />
+                    </a>
                     </Tilt>
                     <p>Advance SQL with Google BigQuery</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {BasicSQL} alt="" />
+                    <a href="https://app.futureskill.co/api/certificate?courseId=49&userId=162762">
+                        <img src= {FutureBI} alt="" />
+                    </a>
                     </Tilt>
-                    <p>Basic SQL</p>
+                    <p>Power BI</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {Excel} alt="" />
+                    <a href="https://app.futureskill.co/api/certificate?courseId=69&userId=162762">
+                        <img src= {Excel} alt="" />
+                    </a>
                     </Tilt>
                     <p>Excel for business</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {Social} alt="" />
+                    <a href="https://www.coursera.org/account/accomplishments/verify/X93UHGMAW8D8">
+                        <img src= {BasicSQL} alt="" /> 
+                    </a>
+                    </Tilt>
+                    <p>SQL for Data Science</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a>
+                        <img src= {Social} alt="" />
+                    </a>
                     </Tilt>
                     <p>Social Listening for Data analysis</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {MINI} alt="" />
+                    <a>
+                        <img src= {MINI} alt="" />
+                    </a>
                     </Tilt>
                     <p>Mini Data Science Bootcamp by DATAROCKIE</p>
                 </div>

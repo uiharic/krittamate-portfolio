@@ -19,36 +19,12 @@ function App() {
 
   return (
     <>
-    <AnimatedCursor
-      innerSize={15}
-      outerSize={8}
-      color='20, 95, 365'
-      outerAlpha={0.2}
-      innerScale={1.5}
-      outerStyle={{
-        border: '3px solid red'
-      }}
-      outerScale={5}
-      clickables={[
-        'a',
-        'input[type="text"]',
-        'input[type="email"]',
-        'input[type="number"]',
-        'input[type="submit"]',
-        'input[type="image"]',
-        'label[for]',
-        'select',
-        'textarea',
-        'button',
-        '.link'
-      ]}
-    />
       <Navbar />
       <Hero />
+      <Number />
       <Skills />
       <Experiences />
       <Portfolio />
-      <Number />
       <HallofFrame />
       <Contact />
       <Footer />
