@@ -11,7 +11,7 @@ function HallofFrame() {
     <section id='hallofframe' className={styles.hall_section}>
         <div className={styles.hall_con}>
             <h3 className={styles.hall_title}>
-                Hall of Frame
+                Hall of Fame
                 <FaTrophy className={styles.hall_icon}/>
             
             </h3>
@@ -34,7 +34,7 @@ function HallofFrame() {
 
                 <div className={styles.hall_items}>
                     <img src={BangchakAward} alt="" />
-                    <h4>BCP Greenovator Innovation compettition 2022</h4>
+                    <h4>BCP Greenovator Innovation competition 2022</h4>
                     <h5>(Bangchak Corporation Public Company Limited)</h5>
                     <p>The first-runnerup in competition</p>
                 </div>
