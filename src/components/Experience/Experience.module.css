@@ -10,6 +10,13 @@
         font-weight: bold;
     }
 
+    & .experience_icon{ 
+        margin-bottom: -5px;
+        margin-left: 10px;
+        color: rgb(0, 0, 0);  
+    } 
+
+
     & .experience_list {
         margin-top: 50px;
         display: flex;

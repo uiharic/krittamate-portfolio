@@ -1,12 +1,16 @@
 import React from 'react';
 import styles from './Skills.module.css';
+import { FaBook } from "react-icons/fa6";
 import { SiPython, SiPandas, SiScikitlearn, SiTensorflow, SiMysql, SiMicrosoftexcel, SiPowerbi, SiRstudio, SiNumpy, SiPytorch, SiMongodb, SiTableau, SiGooglecloud } from 'react-icons/si';
 
 function Skills() {
   return (
     <section id="skills" className={styles.skills_section}>
       <div className={styles.skills_con}>
-          <h3 className={styles.skills_title}>Skill Set</h3>
+          <h3 className={styles.skills_title}>
+            Skill Set
+            <FaBook className={styles.skill_icon}/>
+            </h3>
           <p className={styles.skills_des}>You can click on each icon directly</p>
           <ul className={styles.skills_list}>
               <li>

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Number.module.css'
 import Logo from "../../React_web_pic/SIIT_TU.png"
+import { FaSchool } from "react-icons/fa6";
 
 
 function Number() {
@@ -19,7 +20,10 @@ function Number() {
     <div className={styles.number_con}>
               {/* Title and University */}
         <div className={styles.number_header}> 
-          <h2 className={styles.number_title}>Education</h2>
+          <h2 className={styles.number_title}>
+            Education 
+            <FaSchool className={styles.school_icon} />
+          </h2>
 
           {/* University Logo */}
           <a href="https://www.siit.tu.ac.th/">

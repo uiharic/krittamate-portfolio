@@ -6,6 +6,7 @@ import Tilt from 'react-parallax-tilt';
 
 //img import section
 import ChampPic from "../../React_web_pic/Krittamate_Pic.jpg";
+import Pic from "../../React_web_pic/Pic.jpg"
 
 function Hero() {
   return (
@@ -50,7 +51,7 @@ function Hero() {
                         </ul>
                     </div>
                     <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
-                    <img src= {ChampPic} alt="" />
+                    <img src= {Pic} alt="" />
                     </Tilt>
                 </div>
             </div>

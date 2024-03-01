@@ -13,6 +13,14 @@
         color: rgb(0, 0, 0);
     }
 
+    & .port_icon{ 
+        margin-bottom: -5px;
+        margin-left: 10px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(12, 226, 37);
+        border-radius: 40%;
+    } 
+
     & .port_details{
         margin-top: 20px;
         text-align: center;

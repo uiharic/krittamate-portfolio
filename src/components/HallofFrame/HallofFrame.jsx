@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './HallofFrame.module.css'
+import { FaTrophy } from "react-icons/fa6";
 //img//
 import JournalModeling from '../../React_web_pic/Journal_of_ModelingACS.jpg';
 import JournalChemC from "../../React_web_pic/Journal_of_PhyChemC.jpg";
@@ -9,7 +10,11 @@ function HallofFrame() {
   return (
     <section id='hallofframe' className={styles.hall_section}>
         <div className={styles.hall_con}>
-            <h3 className={styles.hall_title}>Hall of Frame</h3>
+            <h3 className={styles.hall_title}>
+                Hall of Frame
+                <FaTrophy className={styles.hall_icon}/>
+            
+            </h3>
             <div className={styles.hall_list}>
                 <div className={styles.hall_items}>
                     <img src={JournalModeling} alt="" />

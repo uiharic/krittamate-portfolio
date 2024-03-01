@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Portfolio.module.css'
 import Tilt from 'react-parallax-tilt';
+import { FaCheck } from "react-icons/fa6";
 
 //img section
 import MLpro from "../../React_web_pic/ML_project.png";
@@ -23,7 +24,10 @@ function Portfolio() {
   return (
     <section id='certificate' className={styles.port_section}>
         <div className={styles.port_con}>
-            <h3 className={styles.port_title}>Certificate & Project</h3>
+            <h3 className={styles.port_title}>
+                Certificate & Project
+                <FaCheck className={styles.port_icon}/>
+            </h3>
             <h4 className={styles.port_details}>Click at the image for more details</h4>
             <div className={styles.port_list}>
             <div className={styles.port_items}>

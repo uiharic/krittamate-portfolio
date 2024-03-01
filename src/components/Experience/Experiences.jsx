@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Experience.module.css'
+import { FaClock } from "react-icons/fa6";
 //Import Img from com --> make sure that is located in the same folder as web's folder
 import BangChakImg from '../../React_web_pic/Bangchak.png';
 import SIIT from '../../React_web_pic/SIIT.png';
@@ -8,7 +9,10 @@ import VISTEC from '../../React_web_pic/Vistec.png';
 function Experiences() {
   return (
     <div className={styles.experience_con}>
-        <h3 className={styles.experience_title}>Experience</h3>
+        <h3 className={styles.experience_title}>
+            Experience
+            <FaClock className={styles.experience_icon} />
+        </h3>
         <div className={styles.experience_list}>
             <div className={styles.experience_items}>
                 <img src={BangChakImg} alt="" />

@@ -28,6 +28,12 @@
             margin-top: 40px;
         }
 
+        & .school_icon{ 
+            margin-bottom: -5px;
+            margin-left: 10px;
+            color: rgb(0, 0, 0);  
+        } 
+
         & .number_uni{
             font-size: 30px;
             color: #FFFFFF;
