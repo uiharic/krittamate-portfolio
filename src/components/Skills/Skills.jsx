@@ -7,7 +7,7 @@ function Skills() {
     <section id="skills" className={styles.skills_section}>
       <div className={styles.skills_con}>
           <h3 className={styles.skills_title}>Skill Set</h3>
-          <p className={styles.skills_des}>You can click on the icon.</p>
+          <p className={styles.skills_des}>You can click on each icon directly</p>
           <ul className={styles.skills_list}>
               <li>
                 <a href="https://www.mysql.com/">

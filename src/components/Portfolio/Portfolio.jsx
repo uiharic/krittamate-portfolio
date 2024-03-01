@@ -24,7 +24,7 @@ function Portfolio() {
     <section id='certificate' className={styles.port_section}>
         <div className={styles.port_con}>
             <h3 className={styles.port_title}>Certificate & Project</h3>
-            <h4 className={styles.port_details}>Click at the image for more details.</h4>
+            <h4 className={styles.port_details}>Click at the image for more details</h4>
             <div className={styles.port_list}>
             <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>

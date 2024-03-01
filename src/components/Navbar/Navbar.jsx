@@ -22,18 +22,18 @@ function Navbar() {
       <div className={styles.container}>
         <div className={styles.nav_con}>
             <div className={styles.logo}>
-                <a href="#">ChampKrittamate</a>
+            <a  onClick={() => scrollToSection('home')}>ChampKrittamate</a>
             </div>
 
             <ul>
-                <li><a href="#" onClick={() => scrollToSection('education')}>Education</a></li>
-                <li><a href="#" onClick={() => scrollToSection('skills')}>Skill</a></li>
-                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate</a></li>
-                <li><a href="#" onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
+                <li><a  onClick={() => scrollToSection('education')}>Education</a></li>
+                <li><a  onClick={() => scrollToSection('skills')}>Skill</a></li>
+                <li><a  onClick={() => scrollToSection('certificate')}>Certificate</a></li>
+                <li><a  onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
             </ul>
 
             <div className={styles.button}>
-                <a href="#" onClick={() => scrollToSection('contact')}>Contact me</a>
+                <a onClick={() => scrollToSection('contact')}>Contact me</a>
             </div>
         </div>
 
@@ -42,10 +42,10 @@ function Navbar() {
         {isToggled ? (
           <>
             <ul className={styles.mobile_menu}>
-                <li><a href="#" onClick={() => scrollToSection('education')}>Education</a></li>
-                <li><a href="#" onClick={() => scrollToSection('skills')}>Skill</a></li>
-                <li><a href="#" onClick={() => scrollToSection('certificate')}>Certificate</a></li>
-                <li><a href="#" onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
+                <li><a  onClick={() => scrollToSection('education')}>Education</a></li>
+                <li><a  onClick={() => scrollToSection('skills')}>Skill</a></li>
+                <li><a  onClick={() => scrollToSection('certificate')}>Certificate</a></li>
+                <li><a  onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
             </ul>
             <div className={styles.mobile_button}>
               <a href="#" onClick={() => scrollToSection('contact')}>Contact me</a>

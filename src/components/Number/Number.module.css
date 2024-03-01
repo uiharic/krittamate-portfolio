@@ -1,6 +1,6 @@
 .number_con{
     margin-top: 80px;
-    height: 620px;
+    height: 650px;
     background-color: grey;
     /* background-color:  #333333  ; */
     display: flex;
@@ -23,13 +23,14 @@
 
         & .number_title{
             font-size: 53px;
-            color: rgb(0, 0, 0);
+            color: #000000;
             margin-bottom: 20px;
             margin-top: 40px;
         }
 
         & .number_uni{
             font-size: 30px;
+            color: #FFFFFF;
             font-weight: bold;
         }
 
@@ -37,6 +38,13 @@
             font-size: 20px;
             margin-top: 15px;
             text-align: center;
+        }
+
+        & .number_honors{
+            font-size: 20px;
+            margin-top: 15px;
+            color: #FFFFFF;
+            font-weight: bold;
         }
         & .number_date{
             font-size: 20px;
@@ -55,7 +63,7 @@
     }
 
     & .number_items{
-        color:rgb(233, 3, 3);
+        color:#FFFFFF;
         margin: 20px 100px;
         
 
@@ -93,6 +101,11 @@
         cursor: pointer;
         height: 50px;
         justify-content: center;
+
+        &:hover{
+            box-shadow: 0 0 100px 0px rgba(0, 0, 0, 0.3);
+            background-color:rgb(255, 0, 255);
+        }
     }
 }
 

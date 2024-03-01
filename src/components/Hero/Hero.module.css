@@ -1,9 +1,9 @@
 .hero_wrapper {
-    height: 500px;
+    height: 700px;
     overflow: hidden;
 
     & .container{
-        max-width: 1500px;
+        max-width: 1330px;
         margin: 0 auto;
     }
 
@@ -37,11 +37,34 @@
         }
 
         & .text_descript{
+
             font-size: 18px;
             margin-top: 25px;
             text-align:justify;
-            font-weight:525;
+            margin-bottom: 20px;
+            font-weight: 525px;
             font-family:Arial, Helvetica, sans-serif;
+
+            & ul{
+                list-style-type:circle; /* Remove bullet points */
+                margin: 0;             /* Remove default list margins */
+                padding-left: 50px;    /* Add indentation */
+
+                & li{
+                    font-weight: bold;
+                    margin: 20px 0 ;
+                }
+            } 
+        }
+
+        & .text_descript2{
+
+            font-style: oblique;
+            font-size: 18px;
+            margin-top: 25px;
+            text-align: justify;
+            margin-bottom: 20px;
+            line-height: 28px; 
         }
 
         & .hero_social{
@@ -55,7 +78,7 @@
                     & svg{
                         width: 32px;
                         height: 32px;
-                        color: #2639b5;
+                        color: #070a20;
                     }
             }
         }
@@ -77,7 +100,7 @@
 
         & .hero_con{
             flex-direction: column;
-            margin: 50px 0;
+            margin: 150px 0;
             padding: 20px;
 
             & .hero_info, & img {
