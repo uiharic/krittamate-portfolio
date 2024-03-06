@@ -18,8 +18,8 @@
             text-align: center;
             
             & h3 {
-                font-size: 48px;
-                font-weight: bold;
+                font-size: 34px;
+                font-weight: bolder;
                 margin-bottom: 20px;
                 margin-top: -40px;
                 color: rgb(221, 250, 0)
@@ -70,9 +70,20 @@
         & .contact_con{
             flex-direction: column;
 
-            & .contact_info, & .contact_form{
+            & .contact_info{
                 width: 100%;
                 padding: 20px;
+
+                & .contact_heading {
+                    display: flex;
+                    align-items: center; /* Vertically center the items */
+                    justify-content: center; /* Optionally center the content horizontally */
+
+                    & .contact_icon1, .contact_icon2 {
+                        flex-shrink: 0; /* Prevent icons from shrinking and causing wrapping */
+                    }
+                }
+
             }
         }
     }

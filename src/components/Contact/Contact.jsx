@@ -8,11 +8,13 @@ function Contact() {
       <div className={styles.contact_wrapper}>
           <div className={styles.contact_con}>
               <div className={styles.contact_info}>
+                <div className={styles.contact_heading}>
                   <h3>
                     <FaArrowDown className={styles.contact_icon1} />
                     Get in touch
                     <FaArrowDown className={styles.contact_icon2} />
                   </h3>
+                </div>
                   <p className={styles.contact_address}>
                     Bangkok, Thailand
                   </p>
