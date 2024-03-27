@@ -18,6 +18,7 @@ import Cyclistic from "../../React_web_pic/Cyclistic.png"
 import FutureBI from "../../React_web_pic/FuturePowerBI.png"
 import Traffic from "../../React_web_pic/Traffic_Volume_Analysis_Dashboard.png"
 import PythonTech from "../../React_web_pic/PythonTech.png"
+import SkoolBI from "../../React_web_pic/PowerBI_Skooldio.png"
 
 //
 function Portfolio() {
@@ -72,13 +73,20 @@ function Portfolio() {
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.skooldio.com/certificate/d52c6113-dd89-4855-ae2c-ca27d41b5156'>
+                        <img src= {SkoolBI} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Advance PowerBI</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
                     <a href='https://www.skooldio.com/certificate/53211114-fa70-40e8-b372-e2ac6618dc07'>
                         <img src= {PythonTech} alt="" />
                     </a>
                     </Tilt>
                     <p>Efficient Python Techniques</p>
                 </div>
-
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
                     <a href="https://www.skooldio.com/certificate/2519de60-57d0-45dc-a316-6f0142fda5ef">
@@ -102,22 +110,6 @@ function Portfolio() {
                     </a>
                     </Tilt>
                     <p>Advance SQL with Google BigQuery</p>
-                </div>
-                <div className={styles.port_items}>
-                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <a href="https://app.futureskill.co/api/certificate?courseId=49&userId=162762">
-                        <img src= {FutureBI} alt="" />
-                    </a>
-                    </Tilt>
-                    <p>Power BI</p>
-                </div>
-                <div className={styles.port_items}>
-                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <a href="https://app.futureskill.co/api/certificate?courseId=69&userId=162762">
-                        <img src= {Excel} alt="" />
-                    </a>
-                    </Tilt>
-                    <p>Excel for business</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
