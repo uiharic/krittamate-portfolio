@@ -30,16 +30,16 @@ function Number() {
             <img src={Logo} alt="" className={styles.logo} /> 
           </a>
 
-          <p className={styles.number_uni}>Sirindhorn International Institute of Technology (SIIT), Thammasat</p>
+          <p className={styles.number_uni}>Sirindhorn International Institute of Technology (SIIT), Thammasat University</p>
           <p className={styles.number_major}>Bachelor of Engineering (Chemical Engineering)</p>
-          <p className={styles.number_honors}>First-class Honours</p>
-          <p className={styles.number_date}>(2019 - 2023)</p>
+          <p className={styles.number_honors}>First-Class Honors</p>
+          <p className={styles.number_date}>(Aug 2019 - May 2023)</p>
         </div>
 
         <div className={styles.number_items_wrapper}>
           <div className={styles.number_items}>
             <h3>3.64</h3>
-            <p>CGPA</p>
+            <p>GPAX</p>
           </div>
           <div className={styles.number_items}>
             <h3>805</h3>

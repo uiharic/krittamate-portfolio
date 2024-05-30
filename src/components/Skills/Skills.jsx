@@ -11,7 +11,7 @@ function Skills() {
             Skill Set
             <FaBook className={styles.skill_icon}/>
             </h3>
-          <p className={styles.skills_des}>You can click on each icon directly</p>
+          <p className={styles.skills_des}>(Clickable)</p>
           <ul className={styles.skills_list}>
               <li>
                 <a href="https://www.mysql.com/">
@@ -66,11 +66,6 @@ function Skills() {
               <li>
                 <a href="https://www.tensorflow.org/">
                   <SiTensorflow />
-                </a>
-              </li>
-              <li>
-                <a href="https://pytorch.org/">
-                  <SiPytorch />
                 </a>
               </li>
           </ul>

@@ -4,7 +4,6 @@ import Tilt from 'react-parallax-tilt';
 import { FaCheck } from "react-icons/fa6";
 
 //img section
-import MLpro from "../../React_web_pic/ML_project.png";
 import GoogleBI from "../../React_web_pic/Krittamate_BI-1.png"
 import Googleanalytic from "../../React_web_pic/Google_DataCetificate-1.png"
 import PythonMas from "../../React_web_pic/Python_Mastering-1.png"
@@ -15,10 +14,15 @@ import Excel from "../../React_web_pic/Advance_Excel_Krittamate-1.png"
 import Social from "../../React_web_pic/Krittamate_Social_Listening-1.png"
 import MINI from "../../React_web_pic/Krittamate_MiniDSBootcamp.png"
 import Cyclistic from "../../React_web_pic/Cyclistic.png"
-import FutureBI from "../../React_web_pic/FuturePowerBI.png"
 import Traffic from "../../React_web_pic/Traffic_Volume_Analysis_Dashboard.png"
 import PythonTech from "../../React_web_pic/PythonTech.png"
 import SkoolBI from "../../React_web_pic/PowerBI_Skooldio.png"
+import EDA from "../../React_web_pic/EDA_Excel.png"
+import Dashboard from "../../React_web_pic/Dashboard_Design.png"
+import Web from "../../React_web_pic/Web_Scraping.png"
+import DBMS from '../../React_web_pic/DBMS.png'
+import DBSALE from '../../React_web_pic/Dashboard_Sale.png'
+
 
 //
 function Portfolio() {
@@ -49,12 +53,13 @@ function Portfolio() {
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.3c00670">
-                        <img src= {MLpro} alt="" />
-                    </a>
+
+                        <img src= {DBSALE} alt="" />
+                    
                     </Tilt>
-                    <p>Machine Learning Project</p>
+                    <p>Sale analysis dashboard (public dataset)</p>
                 </div>
+
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
                     <a href='https://public.tableau.com/views/Cyclistic_Project_17090294743280/Cyclistic?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'>
@@ -73,11 +78,35 @@ function Portfolio() {
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.skooldio.com/certificate/6e95ae90-e75d-4921-accb-f1d6cbb8bef3'>
+                        <img src= {Web} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Data Collection by Web Scraping</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.skooldio.com/certificate/fbdce581-96cb-4a2d-9094-9673aff5c6a7'>
+                        <img src= {EDA} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Exploraatory Data Analysis with Excel</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.skooldio.com/certificate/af16cc01-60a6-4f7f-a509-d78ea3b53a1b'>
+                        <img src= {Dashboard} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Dashboard Design Principles</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
                     <a href='https://www.skooldio.com/certificate/d52c6113-dd89-4855-ae2c-ca27d41b5156'>
                         <img src= {SkoolBI} alt="" />
                     </a>
                     </Tilt>
-                    <p>Advance PowerBI</p>
+                    <p>Analyze and Visualize with PowerBI</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
@@ -118,6 +147,22 @@ function Portfolio() {
                     </a>
                     </Tilt>
                     <p>SQL for Data Science</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://app.futureskill.co/api/certificate?courseId=69&userId=162762'>
+                        <img src= {Excel} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Excel for Business Analyst</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://app.futureskill.co/api/certificate?courseId=105&userId=162762'>
+                        <img src= {DBMS} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Database management with SQL</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>

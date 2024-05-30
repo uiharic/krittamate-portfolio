@@ -4,7 +4,7 @@ nav{
     top: 0;            /* Position it at the very top */
     width: 100%;       /* Ensure it spans the full width */
     z-index: 500;     /* Place it above other content - Adjust the number if needed */
-    background-color: midnightblue;
+    background-color: #1A237E;
     overflow: hidden;
 
     & a {
@@ -79,7 +79,7 @@ nav{
 
             &.button:hover{
                 box-shadow: 0 0 100px 0px rgba(0, 0, 0, 0.3);
-                background-color:rgb(70, 243, 194);
+                background-color:rgb(35, 239, 32);
                 
             }
 

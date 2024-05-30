@@ -33,7 +33,7 @@ function Navbar() {
             </ul>
 
             <div className={styles.button}>
-                <a onClick={() => scrollToSection('contact')}>Contact me</a>
+                <a onClick={() => scrollToSection('contact')}>Contact</a>
             </div>
         </div>
 
@@ -48,7 +48,7 @@ function Navbar() {
                 <li><a  onClick={() => scrollToSection('hallofframe')}>Achivement</a></li>
             </ul>
             <div className={styles.mobile_button}>
-              <a href="#" onClick={() => scrollToSection('contact')}>Contact me</a>
+              <a href="#" onClick={() => scrollToSection('contact')}>Contact</a>
             </div>
           </>
         ) : null}
