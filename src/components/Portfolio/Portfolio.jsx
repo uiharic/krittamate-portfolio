@@ -22,7 +22,9 @@ import Dashboard from "../../React_web_pic/Dashboard_Design.png"
 import Web from "../../React_web_pic/Web_Scraping.png"
 import DBMS from '../../React_web_pic/DBMS.png'
 import DBSALE from '../../React_web_pic/Dashboard_Sale.png'
-
+import Predict from '../../React_web_pic/Predictive.png'
+import Sentiment from '../../React_web_pic/Sentiment.png'
+import Speech from '../../React_web_pic/Speech.png'
 
 //
 function Portfolio() {
@@ -33,7 +35,7 @@ function Portfolio() {
                 Certificate & Project
                 <FaCheck className={styles.port_icon}/>
             </h3>
-            <h4 className={styles.port_details}>Click at the image for more details</h4>
+            <h4 className={styles.port_details}>Click at the images for reference</h4>
             <div className={styles.port_list}>
             <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
@@ -50,6 +52,30 @@ function Portfolio() {
                     </a>
                     </Tilt>
                     <p>Google Business Intelligence Professional</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.credly.com/badges/f23ca91a-7939-4823-a77d-024d9e5e0b86/public_url'>
+                        <img src= {Predict} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Predictive Data Analysis in BigQuery Badge</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.credly.com/badges/b4e32f7c-ac90-41dc-a5b7-e727c339faa8/public_url'>
+                        <img src= {Sentiment} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Analyze Sentiment with Natural Language API Badge</p>
+                </div>
+                <div className={styles.port_items}>
+                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.credly.com/badges/822d99aa-369d-4b0b-b251-514c7c8014db/public_url'>
+                        <img src= {Speech} alt="" />
+                    </a>
+                    </Tilt>
+                    <p>Analyze Speech and Language with Google APIs Badge</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
@@ -90,7 +116,7 @@ function Portfolio() {
                         <img src= {EDA} alt="" />
                     </a>
                     </Tilt>
-                    <p>Exploraatory Data Analysis with Excel</p>
+                    <p>Exploratory Data Analysis with Excel</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
@@ -106,15 +132,7 @@ function Portfolio() {
                         <img src= {SkoolBI} alt="" />
                     </a>
                     </Tilt>
-                    <p>Analyze and Visualize with PowerBI</p>
-                </div>
-                <div className={styles.port_items}>
-                    <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
-                    <a href='https://www.skooldio.com/certificate/53211114-fa70-40e8-b372-e2ac6618dc07'>
-                        <img src= {PythonTech} alt="" />
-                    </a>
-                    </Tilt>
-                    <p>Efficient Python Techniques</p>
+                    <p>Analysis and Visualization with PowerBI</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
@@ -122,7 +140,7 @@ function Portfolio() {
                         <img src= {PythonMas} alt="" />
                     </a>
                     </Tilt>
-                    <p>Python Mastery Programing</p>
+                    <p>Python Programing</p>
                 </div>
                 <div className={styles.port_items}>
                     <Tilt scale={1.5} transitionSpeed={2500} tiltReverse={true}>
