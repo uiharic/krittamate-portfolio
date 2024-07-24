@@ -21,10 +21,11 @@ import EDA from "../../React_web_pic/EDA_Excel.png"
 import Dashboard from "../../React_web_pic/Dashboard_Design.png"
 import Web from "../../React_web_pic/Web_Scraping.png"
 import DBMS from '../../React_web_pic/DBMS.png'
-import DBSALE from '../../React_web_pic/Dashboard_Sale.png'
+import DBSALE from '../../React_web_pic/DBSALE.jpg'
 import Predict from '../../React_web_pic/Predictive.png'
 import Sentiment from '../../React_web_pic/Sentiment.png'
 import Speech from '../../React_web_pic/Speech.png'
+import UserChoice from '../../React_web_pic/UserChoice.jpg'
 
 //
 function Portfolio() {
@@ -94,19 +95,23 @@ function Portfolio() {
 
                 <div className={styles.port_items}>
                     <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
-                        <img src= {DBSALE} alt="" />   
+                    <a href='https://drive.google.com/file/d/1L36UPqMoO_uLu7QCpFDlRsXFFmAHAIyN/view?usp=sharing'>
+                        <img src= {UserChoice} alt="" />
+                    </a>
                     </Tilt>
-                    <p>Sale analysis dashboard (public dataset)</p>
+                    <a href='https://drive.google.com/file/d/1L36UPqMoO_uLu7QCpFDlRsXFFmAHAIyN/view?usp=sharing'>
+                        <p>LMWN UserChoice Restaurant Analytics</p>
+                    </a>
                 </div>
 
                 <div className={styles.port_items}>
                     <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
-                    <a href='https://public.tableau.com/views/Cyclistic_Project_17090294743280/Cyclistic?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'>
-                        <img src= {Cyclistic} alt="" />
+                    <a href='https://drive.google.com/file/d/1GuMX-eD_X-ZEpwjdu_XSiVd2-g5ooryE/view?usp=sharing'>
+                        <img src= {DBSALE} alt="" />
                     </a>
                     </Tilt>
-                    <a href='https://public.tableau.com/views/Cyclistic_Project_17090294743280/Cyclistic?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'>
-                        <p>Cyclistic Case Study Analysis Dashboard</p>
+                    <a href='https://drive.google.com/file/d/1GuMX-eD_X-ZEpwjdu_XSiVd2-g5ooryE/view?usp=sharing'>
+                    <p>Sale Analytics (public data)</p>
                     </a>
                 </div>
 
