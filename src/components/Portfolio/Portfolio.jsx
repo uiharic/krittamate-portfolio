@@ -26,6 +26,7 @@ import Predict from '../../React_web_pic/Predictive.png'
 import Sentiment from '../../React_web_pic/Sentiment.png'
 import Speech from '../../React_web_pic/Speech.png'
 import UserChoice from '../../React_web_pic/UserChoice.jpg'
+import DAB from '../../React_web_pic/DAB8.png'
 
 //
 function Portfolio() {
@@ -36,7 +37,7 @@ function Portfolio() {
                 Certificate & Project
                 <FaCheck className={styles.port_icon}/>
             </h3>
-            <h4 className={styles.port_details}>You can click at image or title for more reference</h4>
+            <h4 className={styles.port_details}>You can click at image or title for reference</h4>
             <div className={styles.port_list}>
             <div className={styles.port_items}>
                     <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
@@ -57,6 +58,17 @@ function Portfolio() {
                     </Tilt>
                     <a href='https://www.coursera.org/account/accomplishments/professional-cert/5YWBKBH8GJVC'>
                         <p>Google Business Intelligence Professional</p>
+                    </a>
+                </div>
+
+                <div className={styles.port_items}>
+                    <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
+                    <a href='https://www.skooldio.com/certificate/e0dfb2c0-9767-4fdd-b641-fa93c2f8a386'>
+                        <img src= {DAB} alt="" />
+                    </a>
+                    </Tilt>
+                    <a href='https://www.skooldio.com/certificate/e0dfb2c0-9767-4fdd-b641-fa93c2f8a386'>
+                        <p>Skooldio Data Analytics Bootcamp (Batch 8)</p>
                     </a>
                 </div>
 
